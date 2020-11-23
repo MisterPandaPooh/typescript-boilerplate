@@ -1,0 +1,28 @@
+{
+  "name": "mon-super-project",
+  "version": "1.0.0",
+  "description": "Un project avec apooe",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/app.ts"
+  },
+  "keywords": [
+    "superapooe"
+  ],
+  "author": "Apooe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
